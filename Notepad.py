@@ -1,3 +1,11 @@
+#! /usr/bin/env python
+"""
+# Script Name   : Notepad.py
+# Author        : Mihai Cornel
+# Created       : 16.noe.2018
+# Modified      :
+# Version       : 0.01
+"""
 import tkinter
 import os
 from tkinter import *
@@ -42,7 +50,7 @@ class Notepad:
             pass
 
         #set the window text
-        self.__root.title("Untitled - Notepad")
+        self.__root.title("Mhcrnl - Notepad")
 
         #center the window
         screenWidth = self.__root.winfo_screenwidth()
